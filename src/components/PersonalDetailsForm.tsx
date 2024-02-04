@@ -42,9 +42,6 @@ const PersonalDetailsForm: React.FC<PersonalDetailsFormProps> = ({ onSubmit }) =
             <Typography variant="h5" align="center">
               Personal Details
             </Typography>
-            <Typography variant="h6" align="center">
-              Is form dirty: {isDirty ? 'Yes' : 'No'}
-            </Typography>
             <Controller
               name="name"
               control={control}

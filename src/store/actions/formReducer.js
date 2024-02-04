@@ -24,8 +24,8 @@ const formReducer = (state = initialState, action) => {
       return {
         ...state,
         users: [...state.users, newUser],
-        personalDetails: {}, // Reset personal details for the next user
-        addressDetails: {}, // Reset address details for the next user
+        personalDetails: {},
+        addressDetails: {}, 
       };
     default:
       return state;
